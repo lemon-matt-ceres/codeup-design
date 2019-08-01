@@ -220,6 +220,7 @@ header ul {
         grid-template-columns: 100px repeat(2, 1fr) 100px;
         /*grid-template-rows: repeat(3, 1fr);*/
         grid-gap: 1em;
+
     }
 
     nav {
@@ -255,5 +256,15 @@ header ul {
         grid-area: 3 / 2 / 4 / -2;
     }
 
+    .nav-box-1{
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+    }
+
+    .nav-box-2{
+        grid-area: 1 / 2 / 2 / 3;
+        display: flex;
+
+    }
 }
 
