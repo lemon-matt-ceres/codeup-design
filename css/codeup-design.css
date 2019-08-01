@@ -123,11 +123,6 @@ header ul {
 
 /*main start*/
 
-/*main{*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*}*/
-
 .work{
     width: 450px;
     margin: 0 auto 3em auto;
@@ -210,6 +205,11 @@ header ul {
     margin-bottom: 1em;
     font-size: 18px;
 }
+
+.twitter-art {
+    display: none;
+}
+
 
 /* Media Queries */
 
@@ -350,4 +350,11 @@ header ul {
     }
 
 }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media screen and (min-width:992px) {
+
+    }
+
+
 
