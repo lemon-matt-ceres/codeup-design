@@ -353,6 +353,120 @@ header ul {
 
     /* Medium devices (desktops, 992px and up) */
     @media screen and (min-width:992px) {
+        /*header, main{*/
+        /*    display: none;*/
+        /*}*/
+
+        .wrapper{
+            grid-template-columns: 5% repeat(2, 1fr) 5%;
+        }
+
+        nav{
+            margin-bottom: 1.5em;
+        }
+
+        .logo{
+            grid-area: 1 / 2/ 2 / 3;
+            justify-self: flex-start;
+        }
+
+        nav ul{
+            justify-content: flex-end;
+        }
+
+        .nav-work{
+            margin: 0;
+        }
+
+        nav p{
+            grid-area: 1/2/2/3;
+            margin-bottom: 10px;
+        }
+
+        .circle{
+            margin: 1em;
+        }
+
+        .bar{
+            width: 100%;
+        }
+
+        /*Projects section grid start*/
+
+        .projects{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .art-p-1{
+            grid-area: 1/1/2/2;
+            justify-self: flex-start;
+            font-size: .6em;
+        }
+
+        .art-p-2{
+            grid-area: 1/ 3/ 2/ 4;
+            justify-self: flex-start;
+            font-size: .6em;
+        }
+
+        .twitter-art{
+            display: block;
+            grid-area: 2 /3 /4 /4;
+            width: 100%;
+        }
+
+        .last-box1{
+            width: 100%;
+        }
+
+        .the-last-boxes{
+            width: 100%;
+            margin: 0 auto 1.6em auto;
+            line-height: 23px;
+        }
+
+        .the-last-boxes:nth-child(1){
+            margin-top: 15px;
+        }
+
+        .the-last-boxes img{
+            width: 23%;
+            height: auto;
+            margin: 0 1em 0 0;
+            border: 2px solid #E6E6E6;
+        }
+
+        .the-last-boxes h3{
+            font-size: 20px;
+        }
+
+        .twitter-feed{
+            width: 100%;
+            margin: 0;
+
+        }
+
+        .twitter-feed h4{
+            margin-bottom: .5em;
+        }
+
+        .twitter-feed p{
+            font-size: .6em;
+        }
+
+        /*.art-p{*/
+        /*    grid-area: 1/ 3/ 2/ 4;*/
+        /*}*/
+
+        /*.last-box1{*/
+        /*    grid-area: 2 /3/ 3/ 4;*/
+        /*}*/
+
+        /*.twitter-feed{*/
+        /*    grid-area: 3/ 3/ 4/ 4;*/
+        /*}*/
+
+
 
     }
 
