@@ -353,9 +353,7 @@ header ul {
 
     /* Medium devices (desktops, 992px and up) */
     @media screen and (min-width:992px) {
-        /*header, main{*/
-        /*    display: none;*/
-        /*}*/
+
 
         .wrapper{
             grid-template-columns: 5% repeat(2, 1fr) 5%;
@@ -464,11 +462,7 @@ header ul {
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width:1200px) {
-    /*.wrapper{*/
-    /*    grid-template-columns: 15% repeat(2, 1fr) 15%;*/
 
-
-    /*}*/
 
     .hot{
         max-width: 1200px;
